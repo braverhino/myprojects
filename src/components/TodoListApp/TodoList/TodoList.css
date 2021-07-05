@@ -1,0 +1,65 @@
+.task-list__block {
+    display: flex;
+    align-items: center;
+    border: 1px solid #fff;
+    padding: 10px;
+    width: 350px;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin: 20px 0px 0px 0px;
+    color: #fff
+}
+
+.block__todo {
+    word-break: break-word;
+    width: 280px;
+    text-align: start;
+    font-family: 'Courier', serif;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+#hidden {
+    display: none;
+}
+
+.task-list__todoBlock {
+    display: flex;
+}
+
+.todoBlock__solve {
+    display: flex;
+    align-items: center;
+    background: none;
+    justify-content: center;
+    width: 20px;
+    padding: 0;
+    height: 20px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.todoBlock__close {
+    display: flex;
+    align-items: center;
+    background: none;
+    justify-content: center;
+    width: 20px;
+    padding: 0;
+    height: 20px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+#task-list__message {
+    word-break: break-word;
+    width: 280px;
+    text-align: start;
+    font-family: 'Courier', serif;
+}

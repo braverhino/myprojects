@@ -1,0 +1,26 @@
+.homeComponent{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Courier', serif ;
+}
+.projects__block{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 500px;
+
+}
+
+.projects-btn{
+    background-color: #000;
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    border: 1px solid #000;
+    border-radius: 15px;
+    padding: 10px;
+    cursor: pointer;
+    margin: 10px;
+}
